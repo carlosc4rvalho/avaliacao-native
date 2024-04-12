@@ -3,7 +3,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import LoginScreen from './src/pages/LoginScreen/LoginScreen.js';
 import CadastroScreen from './src/pages/CadastroScreen/CadastroScreen.js';
-import ChatScreen from './src/pages/ChatScreen/ChatScreen';
+import ChatScreen from './src/pages/ChatScreen/ChatScreen.js';
+import { db } from './src/services/firebaseConfig.js';
 
 const Stack = createNativeStackNavigator();
 
